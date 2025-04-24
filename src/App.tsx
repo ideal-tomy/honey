@@ -3,6 +3,8 @@ import { lazy, Suspense } from 'react'
 
 // レイアウトのインポート
 import MainLayout from './layouts/MainLayout'
+// スクロール制御コンポーネントのインポート
+import ScrollToTop from './components/ScrollToTop'
 
 // 遅延ロードするページコンポーネント
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -18,6 +20,7 @@ const LpPage = lazy(() => import('./pages/LpPage'))
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Suspense fallback={<div className="flex items-center justify-center h-screen">読み込み中...</div>}>
         <Routes>
           {/* メインレイアウトを適用するルート */}
