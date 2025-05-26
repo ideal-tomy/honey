@@ -15,7 +15,7 @@ const StoryPage = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1551861568-c0ffe0aa1136?q=80&w=500&auto=format&fit=crop" 
+                src="/images/top_tomo.png"
                 alt="養蜂家 Tomo" 
                 className="rounded-lg shadow-xl w-full"
               />

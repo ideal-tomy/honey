@@ -17,7 +17,7 @@ const QualityPage = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1587049352847-de8ed5d1ec29?q=80&w=500&auto=format&fit=crop" 
+                src="/images/products01.jpg"
                 alt="マヌカハニーのMGO活性" 
                 className="rounded-lg shadow-xl w-full"
               />
@@ -51,7 +51,7 @@ const QualityPage = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1682686578842-00ba49b0a71a?q=80&w=500&auto=format&fit=crop" 
+                src="/images/products04.jpg"
                 alt="UMF認証" 
                 className="rounded-lg shadow-xl w-full"
               />

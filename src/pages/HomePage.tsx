@@ -83,8 +83,8 @@ const HomePage = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1587049352847-de8ed5d1ec29?q=80&w=500&auto=format&fit=crop" 
-                  alt="マヌカハニー MGO 100+" 
+                  src="/images/products01.jpg"
+                  alt="マヌカハニー UMF10+"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -105,8 +105,8 @@ const HomePage = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1587049352931-41e3fe58ae13?q=80&w=500&auto=format&fit=crop" 
-                  alt="マヌカハニー MGO 300+" 
+                  src="/images/products02.jpg"
+                  alt="マヌカハニー UMF5+"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -127,8 +127,8 @@ const HomePage = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1587049352665-bde0b8c3b9b3?q=80&w=500&auto=format&fit=crop" 
-                  alt="マヌカハニー MGO 500+" 
+                  src="/images/products03.jpg"
+                  alt="レワレワハニー"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -161,7 +161,7 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1559597434-fa9e43921c0f?q=80&w=500&auto=format&fit=crop" 
+                src="/images/top_tomo.png"
                 alt="養蜂家 Tomo" 
                 className="rounded-lg shadow-lg w-full"
               />
@@ -184,7 +184,7 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-10">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1576328077645-3a4b73f2a543?q=80&w=500&auto=format&fit=crop" 
+                src="/images/top_qc.jpg" 
                 alt="品質検査" 
                 className="rounded-lg shadow-lg w-full"
               />
